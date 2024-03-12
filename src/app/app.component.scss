@@ -1,31 +1,34 @@
+@import "../styles.scss";
+
 .section-title{
   margin-top:20px;
   margin-bottom:20px;
-
+  color:$color-darkestgray;
 }
 .section-title-outer{
   border-style: solid;
   border-width: 3px;
   border-radius: 12px;
-  border-color: #99ffb2;
+  border-color: $color-green;
   background-color:white;
+
   height:40px;
   width: 150px;
+
   margin-left:20px;
   position:relative;
-
-
-
 }
 .section-title-inner{
   position: absolute;
   border-style: solid;
   border-width: 3px;
   border-radius: 12px;
-  border-color: black;
+  border-color: $color-darkestgray;
   background-color:white;
+
   height:40px;
   width: 150px;
+
   margin-left:-10px;
   margin-top:-9px;
   text-align: center;

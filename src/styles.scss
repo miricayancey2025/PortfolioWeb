@@ -1,2 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
 @import "bootstrap/dist/css/bootstrap.css";
+
+$color-green:#99ff99;
+$color-blue:#003399;
+$color-orange:#ff9900;
+$color-darkestgray:#212229;
+$color-darkgray:#393b46;
+$color-midgray:#7e8087;
+$color-lightgray:#acadb1;
+$color-lightestgray:#e1e2e3;
+$darkmode-bg: "assets/darkmode-bg.png";
+$lightmode-bg: "assets/lightmode-bg.png";
+
+body{
+  background: url($lightmode-bg) no-repeat center fixed;
+  background-size: cover;
+}
