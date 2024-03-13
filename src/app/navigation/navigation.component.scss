@@ -1,0 +1,37 @@
+@import "../../styles.scss";
+
+
+//576px - 768px
+@include media-breakpoint-up(sm) {
+  nav, #brand{
+    font-size: 22px;
+  }
+}
+
+//768px - 992px
+@include media-breakpoint-up(md) {
+  nav, #brand{
+    font-size: 26px;
+  }
+}
+
+//992px - 1200px
+@include media-breakpoint-up(lg) {
+  nav, #brand{
+    font-size: 30px;
+  }
+}
+
+//1200px - 1400px
+@include media-breakpoint-up(xl) {
+  nav, #brand{
+    font-size: 34px;
+  }
+}
+
+//1400px and up
+@include media-breakpoint-up(xxl) {
+  nav, #brand{
+    font-size: 38px;
+  }
+}

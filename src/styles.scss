@@ -1,5 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
 @import "bootstrap/dist/css/bootstrap.css";
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins";
 
 $color-green:#99ff99;
 $color-blue:#003399;
@@ -11,16 +14,6 @@ $color-lightgray:#acadb1;
 $color-lightestgray:#e1e2e3;
 $darkmode-bg: "assets/darkmode-bg.png";
 $lightmode-bg: "assets/lightmode-bg.png";
-
-$lm-blue-img: "assets/lm-blue-img.png";
-$lm-orange-img: "assets/lm-orange-img.png";
-$lm-header-img: "assets/lm-header-img.png";
-$lm-about-img: "assets/lm-about-img.png";
-$lm-contact-img: "assets/lm-contact-img.png";
-
-
-
-
 
 body{
   background: url($lightmode-bg) no-repeat center fixed;
