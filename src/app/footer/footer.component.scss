@@ -6,3 +6,41 @@ footer{
     text-decoration: none;
   }
 }
+
+@import "../../styles.scss";
+
+
+//576px - 768px
+@include media-breakpoint-up(sm) {
+  footer {
+    font-size: 16px;
+  }
+}
+
+//768px - 992px
+@include media-breakpoint-up(md) {
+  footer {
+    font-size: 18px;
+  }
+}
+
+//992px - 1200px
+@include media-breakpoint-up(lg) {
+  footer {
+    font-size: 22px;
+  }
+}
+
+//1200px - 1400px
+@include media-breakpoint-up(xl) {
+  footer {
+    font-size: 26px;
+  }
+}
+
+//1400px and up
+@include media-breakpoint-up(xxl) {
+  footer {
+    font-size: 30px;
+  }
+}

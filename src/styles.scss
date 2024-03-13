@@ -18,4 +18,7 @@ $lightmode-bg: "assets/lightmode-bg.png";
 body{
   background: url($lightmode-bg) no-repeat center fixed;
   background-size: cover;
+  font-family: "collector-comic", sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }

@@ -16,6 +16,11 @@ $lm-contact-img: "../assets/lm-contact-img.png";
 
 }
 
+h2{
+  //border: solid black 2px;
+  margin-top:3%;
+}
+
 section, header{
   //border: solid black 2px;
   margin-top:4%;
@@ -103,6 +108,12 @@ main{
   .left-content{
     min-height:215px;
   }
+  .section-title-inner, .section-title-outer{
+    h2{
+      font-size: 18px;
+      font-weight:700;
+    }
+  }
 }
 
 //576px - 768px
@@ -116,9 +127,10 @@ main{
   }
   .section-title-outer, .section-title-inner{
     min-height:50px;
-    min-width:170px;
+    min-width:190px;
       h2{
-        font-size: 30px;
+        font-size: 24px;
+        font-weight:700;
         text-align: center;
       }
     }
@@ -135,10 +147,12 @@ main{
   }
   .section-title-outer, .section-title-inner{
     min-height:60px;
-    min-width:210px;
+    min-width:280px;
     h2{
-      font-size: 40px;
+      font-size: 36px;
+      font-weight:700;
       text-align: center;
+      margin-top:1%;
     }
   }
 }
@@ -163,10 +177,12 @@ main{
   }
   .section-title-outer, .section-title-inner{
     min-height:70px;
-    min-width:260px;
+    min-width:330px;
     h2{
-      font-size: 50px;
+      font-size: 44px;
+      font-weight:700;
       text-align: center;
+      margin-top:.5%;
     }
   }
 }
@@ -192,9 +208,10 @@ main{
 
   .section-title-outer, .section-title-inner{
     min-height:80px;
-    min-width:310px;
+    min-width:400px;
     h2{
-      font-size: 60px;
+      font-size: 54px;
+      font-weight:700;
       text-align: center;
     }
   }
@@ -220,9 +237,10 @@ main{
   }
   .section-title-outer, .section-title-inner{
     min-height:90px;
-    min-width:360px;
+    min-width:460px;
     h2{
-      font-size: 70px;
+      font-size: 64px;
+      font-weight:700;
       text-align: center;
     }
   }
